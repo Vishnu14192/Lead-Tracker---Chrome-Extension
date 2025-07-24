@@ -95,8 +95,10 @@ tabBtn.addEventListener("click", function () {
     render(myLeads);
   });
 });
+```
 
 ### 🧾 Rendering leads with template strings
+```js
 function render(leads) {
   let listItems = "";
   for (let i = 0; i < leads.length; i++) {
